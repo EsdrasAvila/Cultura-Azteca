@@ -50,7 +50,7 @@ article, p, .letter, body, .tituloA, .header-supreme{
 
 .descripcion{
     margin-top:     0px;
-    margin-bottom: 25%;
+    margin-bottom: 27%;
     text-align: center;
     font-family: "Anton SC", sans-serif;
     font-size: 3em;
@@ -77,4 +77,54 @@ article{
      background-image: linear-gradient(rgba(82, 61, 50, 0.8),rgba(82,61,50, 0.8)), 
     url(./img/Ciudad.jpg);
     height: 99vh;
+}
+.the.menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.primera.Seccion, .segunda.Seccion, .tercera.Seccion{
+    text-align: center;
+}
+
+.primera.Seccion, .tercera.Seccion{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 99%;
+}
+
+.pegatina.TiendaFisica{
+    margin-right: 90px;
+}
+
+.sticker{
+    width: 40%;
+    image-rendering: optimizeQuality;
+}
+.pegatina{
+    width: 20%;
+    image-rendering:pixelated
+}
+
+.tarjet{
+    user-select: none;
+    transition: 0.3s;
+}
+/* efecto zoom */
+.tarjet:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+
+
+.the.menu{
+    text-align: center;
+    font-family: "Anton SC", sans-serif;
+    font-size: 1em;
+    justify-content: center;
+    color:#d4c3a9e5;
+    text-shadow: 0px 5px 0px rgba(0, 0, 0, 0.554);
 }
